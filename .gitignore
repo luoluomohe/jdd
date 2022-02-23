@@ -184,6 +184,7 @@ jd_flp.js
 # 蒙牛开卡重复
 jd_mn.js
 jd_mengniu.js
+jd_captian_mn.js
 #不能跑的
 jd_task_*.js
 jx_task_*.js
@@ -287,7 +288,7 @@ jd_try_notify.js
 #jd_jxmc_hb.js
 
 #京东金融免息
- jd_btfree.py
+jd_btfree.py
 
 ########过期活动##############
 
