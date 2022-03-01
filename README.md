@@ -8,29 +8,31 @@
  * 想用谁的合集都可以，结尾有其他大佬们的合集或者看Oreomeow大佬整理的那些
 ### [TG群](https://t.me/jdd_fruit)
 ### [TG频道](https://t.me/jddfruit)
-## 青龙拉取链接
+## 青龙拉取链接(sendNotify需要放到/ql/deps目录下)
 ``` 
-ql repo https://github.com/gys619/jdd.git "jd_|jx_|jddj_|gua_|getJDCookie|wskey" "activity|backUp" "^jd[^_]|USER|utils|ZooFaker_Necklace|JDJRValidator_|sign_graphics_validate|jddj_cookie|function|ql|magic|JDJR|JD" "main"
+ql repo https://github.com/gys619/Absinthe.git "jd_|jx_|jddj_|gua_|getJDCookie|wskey" "activity|backUp" "^jd[^_]|USER|utils|ZooFaker_Necklace|JDJRValidator_|sign_graphics_validate|jddj_cookie|function|ql|magic|JDJR|JD|sendNotify" "main"
+```
+
+## 带ccwav大佬通知版(不需要放/ql/deps目录下)
+``` 
+ql repo https://github.com/gys619/Absinthe.git "jd_|jx_|jddj_|gua_|getJDCookie|wskey|sendNotify" "activity|backUp" "^jd[^_]|USER|utils|ZooFaker_Necklace|JDJRValidator_|sign_graphics_validate|jddj_cookie|function|ql|magic|JDJR|JD" "main"
 ```
 ```
 推荐定时 0 */4 * * *
 ```
 
-[兜兜风评价助手1.6测试版](https://github.com/gys619/gys/blob/main/doudoufeng/%E5%85%9C%E5%85%9C%E9%A3%8E%E7%9A%84%E4%B8%9C%E4%BA%AC%E8%AF%84%E4%BB%B7%E5%8A%A9%E6%89%8B(%E6%B5%8B%E8%AF%95%E7%89%88)%201.7.exe?raw=true)
 
 [退会：JDMemberCloseAccount](https://github.com/yqchilde/JDMemberCloseAccount)
 
 免责声明: 本仓库项目中所涉及的任何解锁和解密分析脚本，仅用于测试和学习研究，不保证其合法性，准确性，完整性和有效性，请根据情况自行判断。请勿将本项目的任何内容用于商业或非法途径，否则后果由使用者自负。如果您认为该项目的内容可能涉嫌侵犯其权利，请与我联系，我会尽快删除文件。如果您使用或复制了本仓库项目中的任何内容，则视为您已接受此免责声明。
 
-拉不到库是因为版本号没了，需要删了重新拉一下，运行一下下面命令就好了，库不稳，见谅！
+拉不到库，需要删了重新拉一下，运行一下下面命令就好了，库不稳，见谅！
 
 docker exec -it 容器名 bash
 
 cd repo
 
-rm -rf gys619_jdd
-
-##### jd_lzdz1_xxxxx.js开卡脚本取消了，有需要用青蛙的开卡
+rm -rf gys619_Absinthe_main
 
 ### 脚本说明
 <details>
@@ -299,7 +301,8 @@ ql repo https://github.com/panghu999/panghu.git "jd_"
 * [@kangwenhang](https://github.com/kangwenhang)
 * [@smiek2221](https://github.com/smiek2221/scripts.git)
 * [@yuannian1112](https://github.com/yuannian1112/jd_scripts.git)
-*  [@shufflewzc](https://github.com/okyyds/yyds/tree/master)
+*  [@okyyds](https://github.com/okyyds/yyds/tree/master)
+*  [@shufflewzc](https://github.com/shufflewzc/faker2/tree/main)
 *  [@passerby-b](https://github.com/passerby-b/JDDJ.git)
 *  [@he1pu](https://github.com/he1pu/JDHelp.git)
 *  [@ccwav](https://github.com/ccwav/QLScript2.git)
@@ -308,4 +311,4 @@ ql repo https://github.com/panghu999/panghu.git "jd_"
 *  [@KingRan](https://github.com/KingRan/KR)
 *  [@Aaron-lv](https://github.com/Aaron-lv/sync)
 *  [@zero205](https://github.com/zero205/JD_tencent_scf)
-*  [@mmnvnmm](https://github.com/mmnvnmm/omo.git)
+*  [@okyyds_duck](https://github.com/okyyds/duck.git)
