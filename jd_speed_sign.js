@@ -685,8 +685,9 @@ function invite2() {
     "/",
     "/",
     "",
-    "/",
-    "=",
+    "",
+    "",
+    "",
     "",
   ]
   let inviterId = inviterIdArr[Math.floor((Math.random() * inviterIdArr.length))]
@@ -719,8 +720,13 @@ function invite() {
     "/",
     "/",
     "",
-    "/",
-    "=",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
     "",
   ]
   let inviterId = inviterIdArr[Math.floor((Math.random() * inviterIdArr.length))]
