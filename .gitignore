@@ -9,7 +9,7 @@ model
 config.sample.sh.new
 jd_update.js
 package-lock.json
-
+jd_enen.js
 jd_checkCK.js
 
 shell
@@ -296,7 +296,23 @@ jd_try_notify.js
 
 #京东金融免息
 jd_btfree.py
-
+#依赖修复
+jd_scripts_check_dependence.py
+#逛plus抽京豆
+jd_plusLottery.js
+#6dylan6仓库重复的
+jd_cfd.hb.js
+jd_dddh.js
+jd_farm_automation.js
+jd_indeps.sh
+jd_sharecode.sh
+jd_tyt_ck1.js
+jd_jsqdtx.js
+jd_farautomation.js
+jd_ms_sign.js
+jd_plusdraw.js
+#京喜工厂商品
+jx_factory_commodity.js
 ########过期活动##############
 
 # 运动户外盲盒
@@ -327,8 +343,53 @@ jd_mpdzcar.js
 jd_mpdzcar_*.js
 #推一推
 #jd_tyt.js
-############不能跑的################
+#38节相关脚本
+jd_38qd.js
+jd_ghnsjd.js
 
+
+
+############不能跑的###############
+#金榜
+jd_gold_sign.js
+#天天压岁钱
+jx_ttysq.js
+#东东世界兑换
+jd_ddworld_exchange.js
+#通天塔签到共建
+jd_babel_sign.js
+#京东汽车兑换
+jd_car_exchange.js
+#京东金融分享助力
+jd_jrmx.py
+#京东金融每周领取权益活动
+jd_jr_draw.js
+#口袋书店
+jd_bookshop.js
+#天天拼图
+jd_ttpt.js
+#锦鲤
+jd_angryKoi.js
+#东东超市兑换
+jd_blueCoin.js
+#邀请有礼
+jd_yqyl.js
+#5魔方兑换
+jd_xmf_exchange.js
+#东东小窝
+jd_small_home.js
+#qq星系牧场
+jd_qqxing.js
+#京东排行榜
+jd_rankingList.js
+#京东金融分享助力
+jd_jrmx.py
+#京东饭粒
+jd_fanli.js
+#东东电竞经理
+jd_EsportsManager.js
+#东东超市奖品兑换
+jd_blueCoin.py
 #宠汪汪有就兑换
 jd_joy_reward.js
 # 通用游戏

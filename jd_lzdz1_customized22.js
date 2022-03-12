@@ -1,5 +1,7 @@
+/*
 
-const $ = new Env("3.8节 女王价到");
+*/
+const $ = new Env("约惠女王节  嗨购不停");
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 const notify = $.isNode() ? require('./sendNotify') : '';
 let cookiesArr = [], cookie = '', message = '';
@@ -49,17 +51,17 @@ if ($.isNode()) {
             $.ADID = getUUID('xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx', 1);
             $.UUID = getUUID('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx');
             authorCodeList = [
-                'adb8db0a663f45d9a29264a62b481e97',
-                'c86802bde1284218bf935e2b5c5ac0ba',
-                '5087387dd7884ada8ec68522f518f7a0',
+                '283e02eafeb54612ab74c23ff642d48b',
+                'd4d4426279bb45f98ce036229fc663f8',
+                'af10ccdbffdb4488a090b43dfcb401e8',
             ]
             // $.authorCode = authorCodeList[random(0, authorCodeList.length)]
             $.authorCode = ownCode ? ownCode : authorCodeList[random(0, authorCodeList.length)]
             $.authorNum = `${random(1000000, 9999999)}`
             $.randomCode = random(1000000, 9999999)
-            $.activityId = 'uniongame2022030101goddess'
-            $.activityShopId = '1000004123'
-            $.activityUrl = `https://lzdz1-isv.isvjcloud.com/dingzhi/customized/common/activity?activityId=uniongame2022030101goddess&shareUuid=${encodeURIComponent($.authorCode)}&adsource=null&shareuserid4minipg=null&shopid=${$.activityShopId}&lng=00.000000&lat=00.000000&sid=&un_area=`
+            $.activityId = 'uniongame20220303molpd624p'
+            $.activityShopId = '1000376431'
+            $.activityUrl = `https://lzdz1-isv.isvjcloud.com/dingzhi/customized/common/activity?activityId=uniongame20220303molpd624p&shareUuid=${encodeURIComponent($.authorCode)}&adsource=null&shareuserid4minipg=null&shopid=${$.activityShopId}&lng=00.000000&lat=00.000000&sid=&un_area=`
             await member();
             // await $.wait(2000)
             if ($.bean > 0) {
